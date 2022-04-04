@@ -1,6 +1,6 @@
 # Salesforce Prettier for VSCode - Installation Guide.
 
-Hi this is a guide to help you configure a SFDX VSCode project with the Prettier Formatter.
+Hi,this is a guide to help you configure a SFDX VSCode project with the Prettier Formatter.
 
 ## 1.Install Prettier Formatter.
 Launch the following cmd:
