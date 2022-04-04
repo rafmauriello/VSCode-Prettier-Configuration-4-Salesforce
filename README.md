@@ -74,5 +74,6 @@ In the settings.json file in the .vscode directory,put:
 ```
 
 ## Documentation 
-This guide is based on the work made by [von Jannis](https://lietzau-consulting.de/2021/09/prettier-sfdx-apex-visualforce-lwc/)
+This guide is based on the work made by [von Jannis](https://lietzau-consulting.de/2021/09/prettier-sfdx-apex-visualforce-lwc/).
+
 
