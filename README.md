@@ -44,7 +44,7 @@ In the .prettierrc file in your project,paste:
       "files": "**/*.{cls,trigger,apex}",
       "options": {
         "apexInsertFinalNewline": true,
-        "printWidth": 350,
+        "printWidth": 300,
         "tabWidth": 4
       }
     },
