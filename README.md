@@ -73,6 +73,18 @@ In the settings.json file in the .vscode directory,put:
 }
 ```
 
+## 5.Format all the classes
+In the package.json file add the following scripts that can be launched by terminal
+```t
+"scripts": {
+    "prettier:format:all": "./node_modules/.bin/prettier --write '**/*'",
+    "prettier:format:apex:all": "./node_modules/.bin/prettier --write '**/*.{trigger,cls}'",
+    "prettier:format:visualforce:all": "./node_modules/.bin/prettier --write '**/*.{cmp,page,component}'",
+    "prettier:format:lwc:all": "./node_modules/.bin/prettier --write '**/lwc/**/*.{html,js}'"
+  },
+```
+These scripts format ALL the files of the selected type (cls,cmp,lwc).
+
 ## Documentation 
 This guide is based on the work made by [von Jannis](https://lietzau-consulting.de/2021/09/prettier-sfdx-apex-visualforce-lwc/).
 
