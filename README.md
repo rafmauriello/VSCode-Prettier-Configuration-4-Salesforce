@@ -89,6 +89,12 @@ The cmd to launch is:
 npm run prettier:format:apex:all
 ```
 
+## 6.NPM Install Error
+In case you get error when launching the npm install commands, go into the VSCode package.json and revert the eslint version to :
+```t
+"eslint": "^8.57.0",
+```
+
 ## Documentation 
 This guide is based on the work made by [von Jannis](https://lietzau-consulting.de/2021/09/prettier-sfdx-apex-visualforce-lwc/).
 
