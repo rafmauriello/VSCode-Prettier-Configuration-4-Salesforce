@@ -95,6 +95,11 @@ In case you get error when launching the npm install commands, go into the VSCod
 "eslint": "^8.57.0",
 ```
 
+UPDATE*** The best way to solve the error is launching the following command for the installation:
+```t
+npm install --save-dev --save-exact prettier prettier-plugin-apex --legacy-peer-deps
+```
+
 ## Documentation 
 This guide is based on the work made by [von Jannis](https://lietzau-consulting.de/2021/09/prettier-sfdx-apex-visualforce-lwc/).
 
